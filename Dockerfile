@@ -9,4 +9,4 @@ CMD echo "The application will start in ${JHIPSTER_SLEEP}s..." && \
     java ${JAVA_OPTS} -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active=docker -jar /app.jar
 
 EXPOSE 8080
-ADD gradle-demo-0.0.1-SNAPSHOT.jar /app.jar
+ADD build/libs/gradle-demo-0.0.1-SNAPSHOT.jar /app.jar

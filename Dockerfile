@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM registry.cn-qingdao.aliyuncs.com/cicc-cloud/cicc-base-jdk:1.0
 ENV TZ=Asia/Shanghai \
     SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \
     JAVA_OPTS="" \
